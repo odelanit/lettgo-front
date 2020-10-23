@@ -1,6 +1,10 @@
 let development = process.env.NODE_ENV !== 'production'
 
 export default {
+    server: {
+        port: 80,
+        host: '0.0.0.0'
+    },
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
         title: 'Lettgo - Norsk markedsplass',
