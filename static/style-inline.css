@@ -1,0 +1,352 @@
+body, .mapboxgl-popup-content .price {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.mapboxgl-popup-content .price {
+    font-weight: 600;
+}
+
+input[type="submit"], a, a:active, a:focus {
+    color: #666666
+}
+
+/* FONT 500 */
+.navigation li a, .special-nav a, .single-advert-title .breadcrumbs {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* FONT 400 */
+.author-address em, .contact-seller em, .reveal-phone em, .header-search select, .header-search input {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pagination > span, .pagination a, body .kc_tabs_nav > li > a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+
+.header-alike, .af-title p, .element-qs input, body .elementor-widget-tabs .elementor-tab-title, body .elementor-widget-tabs .elementor-tab-title a, body .elementor-widget-accordion .elementor-accordion .elementor-accordion-title {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.3;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1 a:focus, h2 a:focus, h3 a:focus, h4 a:focus, h5 a:focus, h6 a:focus {
+    color: #333333;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+a:hover, .article-title a:hover, h1 a:focus:hover, h2 a:focus:hover, h3 a:focus:hover, h4 a:focus:hover, h5 a:focus:hover, h6 a:focus:hover, .styled-radio.active label:before, .styled-radio input:checked + label:before, .styled-checkbox.active label:before, .styled-checkbox input:checked + label:before, .owl-video-play-icon:hover:before, .adverts-slider .owl-nav > div, .account-btn, .account-btn:focus, .account-btn:active, .navigation a:hover, .navigation li.current-menu-ancestor > a, .navigation li.current_page_ancestor > a, .navigation li.current_page_ancestor > a:visited, .navigation li.current_page_item > a, .navigation li.current_page_item > a:visited, .navigation li.current-menu-item > a, .navigation li.current-menu-item > a:visited, .bid-login, .bid-login:active, .bid-login:focus, .bid-login:hover, .error404 .white-block-content i, .or-divider h6, .cf-loader, .layout-view a.active, .no-advert-found i, .advert-hightlight .white-block-content h5 a, .single-advert-actions li a:hover, .widget_adifier_advert_locations i, body .kc_accordion_header.ui-state-active > a, .author-no-listing i, .adverts-filter ul li.active a, .image-input-wrap a:hover i, .mess-loading, .con-loading, .open-reponse-form, .promotion-description-toggle, .promotion-description-toggle:focus, #purchase .loader, .purchase-loader i, .video-input-wrap a:hover, .another-video:hover, .user-rating, .rate-user, .reset-search:focus:hover, .element-categories-tree li a:hover, .element-categories-tree .view-more a:hover, .advert-item .aficon-heart, .random-author-ads .aficon-heart, .advert-card .compare-add.active, .compare-add.active, .compare-add.active:hover, .compare-add.active:active, .toggle-conversations, .toggle-conversations:hover, .toggle-conversations:active, .element-categories-table > a:hover h6, .advert-hightlight .white-block-content .price, .advert-hightlight .white-block-content h5 a, .user-details-list a, .user-details-list a:active, .user-details-list a:focus, .element-categories-v-list a:hover h5, body .elementor-widget-accordion .elementor-active .elementor-accordion-icon, body .elementor-widget-accordion .elementor-active .elementor-accordion-title, body .elementor-accordion .elementor-tab-title.elementor-active a {
+    color: #5f83ff;
+}
+
+@media (max-width: 1024px) {
+    .small-sidebar-open, .special-nav a, .special-nav a:focus, .special-nav a:active {
+        color: #5f83ff;
+    }
+}
+
+blockquote, .owl-carousel .owl-video-play-icon:hover, .owl-video-play-icon:hover:before, .filter-slider.ui-slider .ui-state-default, .filter-slider.ui-slider .ui-widget-content .ui-state-default, .filter-slider.ui-slider .ui-state-focus, .filter-slider.ui-slider .ui-state-hover, .filter-slider.ui-slider .ui-widget-content .ui-state-focus, .filter-slider.ui-slider .ui-widget-content .ui-state-hover, .promotion:not(.disabled):not(.inactive) .promo-price-item:hover, .layout-view a:hover, .adverts-filter ul li.active a, input:focus, textarea:focus, select:focus, .select2-container--open.select2-container--default .select2-selection--single {
+    border-color: #5f83ff;
+}
+
+.rtl .conversation-wrap.current, .rtl .conversation-wrap:hover {
+    border-right-color: #5f83ff;
+}
+
+.author-sidebar li.active {
+    border-left-color: #5f83ff;
+}
+
+.scroll-element .scroll-element_track, .scroll-element .scroll-bar, .scroll-element:hover .scroll-bar.scroll-element.scroll-draggable .scroll-bar, .pagination > span:not(.dots), .pagination a.current, .af-interactive-slider a {
+    background-color: #5f83ff;
+}
+
+.af-button, input[type="submit"], .af-button:focus, .af-button:active, .filter-slider.ui-slider .ui-slider-range, .comment-avatar .icon-user, .author-address, .single-price, .kc-search .af-button, .kc-search .af-button:hover, .kc-search .af-button:focus, .kc-search .af-button:active, body .kc_tabs_nav > .ui-tabs-active > a, body .kc_tabs_nav > .ui-tabs-active > a:hover, body .kc_tabs_nav > .ui-tabs-active > a, body .kc_tabs_nav > li > a:hover, .message-actions a:not(.disabled):hover, .profile-advert .action a:nth-child(1):hover i, .profile-advert .action a:nth-child(4) i, body .elementor-widget-tabs .elementor-tab-title:hover, body .elementor-widget-tabs .elementor-tab-title.elementor-active {
+    background: #5f83ff;
+}
+
+@media (min-width: 1025px) {
+    .submit-btn, .submit-btn:focus, .submit-btn:active {
+        background: #5f83ff;
+        color: #ffffff;
+    }
+
+    .submit-btn:hover {
+        background: #4971ff;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 1024px) {
+    .submit-btn, .submit-btn:focus, .submit-btn:active {
+        color: #5f83ff;
+    }
+}
+
+.af-button, input[type="submit"], .af-button:focus, .af-button:active, .pagination > span:not(.dots), .pagination a.current, .comment-avatar .icon-user, .single-price, .single-price .price, .single-price .price span:not(.price-symbol):not(.text-price), .kc-search .af-button, .kc-search .af-button:hover, .kc-search .af-button:focus, .kc-search .af-button:active, body .kc_tabs_nav > .ui-tabs-active > a, body .kc_tabs_nav > .ui-tabs-active > a:hover, body .kc_tabs_nav > .ui-tabs-active > a, body .kc_tabs_nav > li > a:hover, .message-actions a:not(.disabled):hover, .af-interactive-slider a:hover, .status.live, body .elementor-widget-tabs .elementor-tab-title:hover, body .elementor-widget-tabs .elementor-tab-title.elementor-active {
+    color: #ffffff;
+}
+
+.af-button:hover, .af-button.af-secondary:hover, input[type="submit"]:hover, .pagination a:hover, .author-address i, .kc-search .af-button:hover, .bidding-history:hover, .af-interactive-slider a:hover {
+    background: #4971ff;
+}
+
+.element-categories-list svg, .element-categories-v-list a:hover svg, .element-categories-transparent-wrap svg, .element-categories-table svg, .widget_adifier_advert_categories a:hover svg, .header-cats a:hover svg {
+    fill: #4971ff;
+}
+
+.af-button:hover, .af-button.af-secondary:hover, input[type="submit"]:hover, .pagination a:hover, .author-address i, .kc-search .af-button:hover, .bidding-history:hover, .af-interactive-slider a:hover {
+    color: #ffffff;
+}
+
+.modal-header a:hover, .profile-advert-cats a:hover {
+    color: #4971ff;
+}
+
+.header-search > a, .header-search > a:hover, .header-search > a:focus, .af-button.af-cta {
+    background: #ff5a5f;
+    color: #ffffff;
+}
+
+.header-search > a:hover, .af-button.af-cta:hover {
+    background: #d54b4f;
+    color: #ffffff;
+}
+
+.logo {
+    width: 170px;
+}
+
+.page-title {
+    background-color: #ffffff;
+    background-image: url();
+}
+
+.page-title, .page-title h1, .page-title a, .breadcrumbs {
+    color: #000000;
+}
+
+.bottom-advert-meta .price {
+    color: #000000;
+}
+
+.bottom-sidebar-wrap {
+    background: #f9f9f9;
+}
+
+.bottom-sidebar-wrap, .bottom-sidebar-wrap a, .bottom-sidebar-wrap a:hover, .bottom-sidebar-wrap a:focus {
+    color: #959ba7;
+}
+
+.bottom-sidebar-wrap .widget .white-block-title h5, .bottom-sidebar-wrap a:hover {
+    color: #ffffff;
+}
+
+.price-table-price {
+    background: #374252;
+    color: #ffffff;
+}
+
+.price-table-title h5 {
+    background: #2e3744;
+    color: #ffffff;
+}
+
+.price-table-element .af-button:focus, .price-table-element .af-button:active, .price-table-element .af-button {
+    background: #374252;
+    color: #ffffff;
+}
+
+.price-table-element .af-button:hover {
+    background: #2e3744;
+    color: #ffffff;
+}
+
+.active-price-table .price-table-price {
+    background: #00a591;
+    color: #ffffff;
+}
+
+.active-price-table .price-table-title h5 {
+    background: #008c77;
+    color: #ffffff;
+}
+
+.active-price-table.price-table-element .af-button:focus, .active-price-table.price-table-element .af-button:active, .active-price-table.price-table-element .af-button {
+    background: #00a591;
+    color: #ffffff;
+}
+
+.active-price-table.price-table-element .af-button:hover {
+    background: #008c77;
+    color: #ffffff;
+}
+
+.copyrights {
+    background: #f9f9f9;
+}
+
+.copyrights div, .copyrights a, .copyrights a:hover, .copyrights a:focus {
+    color: #000000;
+}
+
+.copyrights a:hover {
+    color: #000000;
+}
+
+.subscription-footer {
+    background: #ffffff
+}
+
+.subscription-footer, .subscription-footer h4 {
+    color: #2d323e
+}
+
+.subscription-footer .submit-ajax-form, .subscription-footer .submit-ajax-form:hover, .subscription-footer .submit-ajax-form:active, .subscription-footer .submit-ajax-form:visited {
+    background: #2d323e;
+    color: #ffffff;
+}
+
+.subscription-footer input {
+    border-color: #2d323e;
+}
+
+/* CTAs */
+.reveal-phone, .reveal-phone:focus, .reveal-phone:hover {
+    color: #ffffff;
+    background: #ff5a5f;
+}
+
+.reveal-phone i {
+    background: #d54b4f;
+}
+
+.contact-seller, .contact-seller:focus, .contact-seller:hover, .bidding-history, .bidding-history:focus, .phone-code-send-again, .phone-code-send-again:focus {
+    color: #ffffff;
+    background: #4b586b;
+}
+
+@media (min-width: 415px) {
+    .header-3 .account-btn, .header-3 .account-btn:focus, .header-3 .account-btn:active, .header-3 .submit-btn, .header-3 .submit-btn:focus, .header-3 .submit-btn:active, .header-3 .small-sidebar-open, .header-3 .small-sidebar-open:focus, .header-3 .small-sidebar-open:active {
+        color: #ffffff;
+    }
+}
+
+.header-2.sticky-header.header-3:not(.sticky-nav) {
+    background: rgba(55, 66, 82, 0.4);
+}
+
+.header-2.sticky-header {
+    background: #374252;
+}
+
+@media (min-width: 1025px) {
+    .header-2 .navigation > li > a {
+        color: #ffffff;
+    }
+
+    .header-2 .navigation > li.current-menu-ancestor > a, .header-2 .navigation > li.current_page_ancestor > a, .header-2 .navigation > li.current_page_ancestor > a:visited, .header-2 .navigation > li.current_page_item > a, .header-2 .navigation > li.current_page_item > a:visited, .header-2 .navigation > li.current-menu-item > a, .header-2 .navigation > li.current-menu-item > a:visited, .header-2 .navigation > li > a:hover {
+        color: #ffffff;
+    }
+
+    .header-2.sticky-header .account-btn, .header-2.sticky-header .account-btn:focus, .header-2.sticky-header .account-btn:active {
+        color: #ffffff;
+    }
+
+    .header-2.sticky-header:not(.header-3) .submit-btn, .header-2.sticky-header:not(.header-3) .submit-btn:focus, .header-2.sticky-header:not(.header-3) .submit-btn:active {
+        color: #ffffff;
+        border: 2px solid #ffffff;
+    }
+
+    .header-2.sticky-header:not(.header-3) .submit-btn:hover {
+        color: #ffffff;
+    }
+}
+
+.header-5 .navigation-wrap, body > header.header-5 .special-nav, .header-5 {
+    background: #374252;
+}
+
+.header-5 .navigation > li > a {
+    color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .header-5 .navigation > li a {
+        color: #ffffff;
+    }
+}
+
+.header-5 .navigation > li.current-menu-ancestor > a, .header-5 .navigation > li.current_page_ancestor > a, .header-5 .navigation > li.current_page_ancestor > a:visited, .header-5 .navigation > li.current_page_item > a, .header-5 .navigation > li.current_page_item > a:visited, .header-5 .navigation > li.current-menu-item > a, .header-5 .navigation > li.current-menu-item > a:visited, .header-5 .navigation > li > a:hover {
+    color: #ffffff;
+}
+
+.header-5.sticky-header .special-nav .show-on-414 a, .header-5.sticky-header .special-nav .show-on-414 a:focus, .header-5.sticky-header .special-nav .show-on-414 a:active, .header-5.sticky-header .account-btn, .header-5.sticky-header .account-btn:focus, .header-5.sticky-header .account-btn:active, .header-5.sticky-header .small-sidebar-open, .header-5.sticky-header .small-sidebar-open:focus, .header-5.sticky-header .small-sidebar-open:hover, .header-5.sticky-header .submit-btn, .header-5.sticky-header .submit-btn:focus, .header-5.sticky-header .submit-btn:active {
+    color: #ffffff;
+    background: transparent;
+}
+
+@media (min-width: 1025px) {
+    .header-5.sticky-header:not(.header-3) .submit-btn, .header-5.sticky-header:not(.header-3) .submit-btn:focus, .header-5.sticky-header:not(.header-3) .submit-btn:active {
+        color: #ffffff;
+        border: 2px solid #ffffff;
+    }
+}
+
+h6 {
+    font-size: 11px;
+}
+
+.element-categories-table > a {
+    border-right: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+    padding: 3px;
+}
+
+.element-categories-table {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.element-categories-table-5 > a:nth-child(5n) {
+    border-right: 1px solid #ffffff;
+}
+
+.bottom-sidebar-wrap .widget .white-block-title h5, .bottom-sidebar-wrap a:hover {
+    color: #5f83ff;
+}

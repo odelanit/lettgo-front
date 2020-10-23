@@ -1,0 +1,84 @@
+body {
+}
+#info-card {
+
+}
+#info-card i {
+	font-size: 26px;
+	margin-top: 5px;
+}
+#info-card h6 {
+
+}
+#info-card span {
+	font-weight: bold;
+}
+#info-card .col-sm-8 {
+	padding-left: 0 !important;
+}
+.ad-top-detail {
+	margin-top: -34px;	
+}
+.ad-top-detail .price {
+	background-color: #00000073;
+    padding: 3px 5px 5px 5px;
+    color: #fff !important;
+    border-radius: 5px
+}
+.ad-top-detail .flex-right {
+	padding: 3px 10px 3px 2px;
+}
+.short-about {
+	overflow: hidden;
+}
+.short-about ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.short-about ul li {
+	display: inline-block;
+	float: left;
+	width: 26%;
+}
+.short-about ul li img {
+	float: left !important;
+    margin-right: 3px;
+    margin-top: 5px;
+    width: 21px;
+}
+.short-about .ad-info span {
+	font-size: 11px;
+}
+.short-about ul li:first-child {
+	width: 22%;
+}
+.bottom-content-li {
+	padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: calc(20% - 15px) !important;
+    margin-right: 15px;
+}
+li.main-parent.open li {
+	display: none;
+}
+li.main-parent.open li {
+	display: block;
+}
+li.main-parent.p-3218.open li {
+	display: none;
+}
+.styled-radio.p-3218 {
+	display: none !important;	
+}
+li.main-parent.p-3218.open li.open, li.main-parent.p-3218.open li.open li {
+	display: block;
+}
+.creater-img {
+	position: absolute;
+	z-index: 9;
+    width: 12%;
+    right: 2%;
+    top: 2%;
+}
