@@ -1,0 +1,25 @@
+{
+    "login": "Logg inn",
+    "username_email": "Brukernavn / E-post",
+    "password": "Passord",
+    "forgotten_your_password": "Glemt ditt passord?",
+    "confirm_close": "Er du sikker på at du ønsker å slette kontoen din samt alt av innhold assosiert med denne kontoen? Kontoen kan ikke gjennopprettes.",
+    "author": {
+        "view_profile": "Vis profil",
+        "settings": "Rediger",
+        "messages": "Meldinger",
+        "logout": "Logg ut",
+        "account_panel": "KONTOPANEL",
+        "dashboard": "Oversikt",
+        "ads": "Annonser",
+        "your_ads": "Mine annonser",
+        "favorite_ads": "Antall favoritt",
+        "auctions": "Auksjon",
+        "reviews": "Omtaler",
+        "assessments": "Vurderinger",
+        "transactions": "Transaksjoner",
+        "invoices": "Ordrehistorikk",
+        "my_account": "Min konto",
+        "delete_account": "Slett konto"
+    }
+}

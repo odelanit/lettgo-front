@@ -1,0 +1,25 @@
+{
+    "login": "Login",
+    "username_email": "Username / Email",
+    "password": "Password",
+    "forgotten_your_password": "Forgotten your password?",
+    "confirm_close": "Are you sure that you want to delete your account and everything associated with it?",
+    "author": {
+        "view_profile": "View Profile",
+        "settings": "Settings",
+        "messages": "Messages",
+        "logout": "Logout",
+        "account_panel": "Account Panel",
+        "dashboard": "Dashboard",
+        "ads": "Ads",
+        "your_ads": "Your Ads",
+        "favorite_ads": "Favorite Ads",
+        "auctions": "Auctions",
+        "reviews": "Reviews",
+        "assessments": "Assessments",
+        "transactions": "Transactions",
+        "invoices": "Invoices",
+        "my_account": "My Account",
+        "delete_account": "Delete Account"
+    }
+}
