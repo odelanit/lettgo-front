@@ -8,7 +8,7 @@
 export default {
     name: "Messages",
     middleware: 'authenticated',
-    layout: 'profile',
+    layout: 'author',
 }
 </script>
 

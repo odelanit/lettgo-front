@@ -2,30 +2,37 @@ const cookieparser = process.server ? require('cookieparser') : undefined
 
 export const state = () => {
     return {
-        token: null
+        auth: null,
+        locales: ['en', 'no'],
+        locale: 'no'
     }
 }
 
 export const mutations = {
-    setToken (state, token) {
-        state.token = token
+    SET_AUTH (state, auth) {
+        state.auth = auth
+    },
+    SET_LANG (state, locale) {
+        if (state.locales.includes(locale)) {
+            state.locale = locale
+        }
     }
 }
 
 export const actions = {
     nuxtServerInit({ commit }, { req }) {
-        let token = null
+        let auth = null
         if (req.headers.cookie) {
             const parsed = cookieparser.parse(req.headers.cookie)
             try {
-                token = parsed.token;
+                auth = JSON.parse(parsed.auth);
             } catch (err) {
                 console.warn('No valid cookie found')
             }
         }
-        commit('setToken', token);
+        commit('SET_AUTH', auth);
     },
     logout({ commit }) {
-        commit('setToken', null);
+        commit('SET_AUTH', null);
     }
 }

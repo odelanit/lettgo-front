@@ -90,7 +90,7 @@ header.author-header{
 	a.header-home-icon:active{
 		font-size: 20px;
 		text-align: center;
-	}	
+	}
 }
 
 @media (min-width: 1025px){
@@ -173,6 +173,7 @@ header.author-header{
 }
 
 .author-sidebar-list li.active a,
+.author-sidebar-list li.nuxt-link-exact-active a,
 .author-sidebar-list li:not(.user-details):hover a{
 	background: #252933;
 	color: #fff;
@@ -200,7 +201,7 @@ header.author-header{
 	-moz-transition: all 0.1s ease-in-out;
 	-ms-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
-	transition: all 0.1s ease-in-out;	
+	transition: all 0.1s ease-in-out;
 	width: 35px;
 	display: inline-block;
 	text-align: left;
@@ -220,7 +221,7 @@ header.author-header{
 	padding: 20px;
 	background: #252933;
 	padding-top: 50px;
-	padding-bottom: 30px;	
+	padding-bottom: 30px;
 }
 
 .user-details img{
@@ -505,8 +506,8 @@ input.map-search{
 @media (width: 1440px){
 	.profile-advert > .action{
 		width: 13%;
-	}	
-	
+	}
+
 	.profile-advert > div:nth-child(4){
 		width: 16%
 	}
@@ -643,7 +644,7 @@ input.map-search{
 
 .profile-advert .action a:nth-child(4) i{
 	background: #00a591;
-	color: #fff;	
+	color: #fff;
 }
 
 .message-actions a:not(.disabled):hover i,
@@ -654,7 +655,7 @@ input.map-search{
 
 .profile-advert .action a:nth-child(2):hover i{
 	background: #2d323e;
-	color: #fff;	
+	color: #fff;
 }
 
 .profile-advert .action a:nth-child(3):hover i{
@@ -863,7 +864,7 @@ div.cf-field{
 	display: inline-block;
 	width: calc(14.23% - 5px);
 	margin-right: 5px;
-	border-radius: 2px; 
+	border-radius: 2px;
 	overflow: hidden;
 	margin-top: 5px;
 	float: left;
@@ -912,7 +913,7 @@ div.cf-field{
 	display: block;
 }
 
-.image-input-wrap .styled-radio label:before{	
+.image-input-wrap .styled-radio label:before{
 	font-size: 13px;
 	margin: 0px;
 }
@@ -1260,22 +1261,22 @@ div.cf-field{
 }
 
 .other-user .message{
-	border-radius: 2px 10px 10px 2px;	
+	border-radius: 2px 10px 10px 2px;
 }
 
 .other-user .flex-wrap:last-child .message{
-	border-radius: 2px 10px 10px 10px;	
+	border-radius: 2px 10px 10px 10px;
 }
 
 .this-user .message{
 	margin-left: auto;
 	color: #fff;
 	background: #374252;
-	border-radius: 10px 2px 2px 10px;	
+	border-radius: 10px 2px 2px 10px;
 }
 
 .this-user .flex-wrap:first-child .message{
-	border-radius: 10px 10px 2px 10px;	
+	border-radius: 10px 10px 2px 10px;
 }
 
 .message img{
@@ -1627,7 +1628,7 @@ div.cf-field{
 	left: 0px;
 	z-index: -1;
 	right: 0px;
-	bottom: 0px;	
+	bottom: 0px;
 	position: absolute;
 	background-size: cover;
 	background-position: center right;
@@ -2066,7 +2067,7 @@ p.author-description{
 }
 
 
-.type_9 .scroll-wrapper, 
+.type_9 .scroll-wrapper,
 .type_10 .scroll-wrapper{
 	max-height: 150px;
 }

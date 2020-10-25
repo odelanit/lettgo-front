@@ -9,14 +9,14 @@ jQuery(document).ready(function($){
 	$('.postform, .widget_archive select, .widget_text select').wrap('<div class="styled-select"></div>');
 
 	/* TO TOP */
-	$(window).on('scroll', function(){		
+	$(window).on('scroll', function(){
 		if( $(window).scrollTop() > 200 ){
 			$('.to_top').fadeIn(100);
 		}
 		else{
 			$('.to_top').fadeOut(100);
 		}
-	});	
+	});
 
 	$('.nav-paste').html( $('.nav-copy').html() );
 
@@ -25,11 +25,11 @@ jQuery(document).ready(function($){
 		$("html, body").stop().animate(
 			{
 				scrollTop: 0
-			}, 
+			},
 			{
 				duration: 1200
 			}
-		);		
+		);
 	});
 
 	if( adifier_data.enable_sticky == 'yes' && ( $('.author-header').length == 0 || ( $('.author-header').length > 0 && $(window).width() < 1025 ) ) ){
@@ -69,9 +69,9 @@ jQuery(document).ready(function($){
 					$clone.css('top', top+'px');
 				}
 				else{
-					$clone.css('top', '-500px');	
+					$clone.css('top', '-500px');
 				}
-			});			
+			});
 		});
 	}
 	else{
@@ -80,7 +80,7 @@ jQuery(document).ready(function($){
 			$('.author-sidebar').css( 'top', wpadminbar.height() );
 		}
 	}
-	
+
 	function smallScreenDropdown(e){
 		if( $(window).width() <= 1024 && e.target.nodeName == 'I' ){
 			e.preventDefault();
@@ -92,17 +92,17 @@ jQuery(document).ready(function($){
 			else{
 				$this.parent().removeClass('open').find(' > .dropdown-menu').hide();
 				$this.parent().find('.dropdown').removeClass('open').find(' > .dropdown-menu').hide();
-			}					
+			}
 		}
 	}
-	
+
 	function handle_navigation(){
 		if ($(window).width() > 1024) {
 			$('.navigation li.dropdown, .navigation li.dropdown-submenu').hover(function () {
 				$(this).addClass('open').find(' > .dropdown-menu').stop(true, true).hide().slideDown(50);
 			}, function () {
 				$(this).removeClass('open').find(' > .dropdown-menu').stop(true, true).show().slideUp(50);
-	
+
 			});
 		}
 		else{
@@ -112,7 +112,7 @@ jQuery(document).ready(function($){
 		}
 	}
 	handle_navigation();
-	
+
 	$(window).resize(function(){
 		setTimeout(function(){
 			handle_navigation();
@@ -126,10 +126,10 @@ jQuery(document).ready(function($){
 	}
 
 	/* SUBMIT FORMS */
-	$(document).on('click', '.submit-ajax-form, .submit-form', function(e){
-		e.preventDefault();
-		$(this).parents('form').submit();
-	});
+	// $(document).on('click', '.submit-ajax-form, .submit-form', function(e){
+	// 	e.preventDefault();
+	// 	$(this).parents('form').submit();
+	// });
 
 	$('.change-submit').on('change', function(e){
 		$(this).parents('form').submit();
@@ -159,14 +159,14 @@ jQuery(document).ready(function($){
 			var spin = '<i class="aficon-spin aficon-circle-notch"></i>';
 			var isIcon = false;
 			var oldIcon = '';
-			
+
 			$submitButton.find('.icon-response').remove();
 
 			/* we mus disable empty file inputs since iOS is messing it up */
 			var $inputs = $('input[type="file"]:not([disabled])', $this);
 			$inputs.each(function(_, input) {
 				if (input.files.length > 0){
-					return;	
+					return;
 				}
 
 				$(input).prop('disabled', true);
@@ -188,7 +188,7 @@ jQuery(document).ready(function($){
 				$result.html( '' );
 			}
 
-			
+
 			// $.ajax({
 			// 	url: adifier_data.ajaxurl,
 			// 	method: 'POST',
@@ -236,7 +236,7 @@ jQuery(document).ready(function($){
 			// });
 		}
 	});
-	
+
 	$(document).on('click', '.submit-redirect', function(){
 		$('#login form').append('<input type="hidden" class="redirect" name="redirect" value="submit" />');
 	});
@@ -465,7 +465,7 @@ jQuery(document).ready(function($){
 	        $this.attr('href', 'tel:'+$em.text().replace(/[`~!@#$%^&*()_| \-=?;:'",.<>\{\}\[\]\\\/]/gi, ''))
 	        $this.addClass('revealed')
 	    }
-    });	
+    });
 
     /* KC PATCH FOR VIDEO OVERLAY */
     $('.kc-video-bg').each(function(){
@@ -483,7 +483,7 @@ jQuery(document).ready(function($){
 	    $('.author-sidebar > div').scrollbar();
 	}
 	catch(error) {
-		
+
 	}
     $(document).on('click', '.small-sidebar-open', function(e){
         e.preventDefault();
@@ -498,7 +498,7 @@ jQuery(document).ready(function($){
 	        	$('body').append('<a href="javascript:void(0);" class="small-sidebar-close" data-target="'+target+'" style="'+( isRTL ? 'right' : 'left' )+': '+($target.outerWidth() - 15)+'px; top:'+($(window).height() / 2)+'px; z-index:999999999999999;"><i class="aficon-times-circle"></i></a>');
 	        }, 200);
 	    }
-    });  
+    });
 
     $(document).on('click', '.small-sidebar-close', function(e){
         e.preventDefault();
@@ -523,7 +523,7 @@ jQuery(document).ready(function($){
     	$this.find(" > img").css('opacity', 1);
 		$this.find(" > img:gt(0)").hide();
 
-		setInterval(function() { 
+		setInterval(function() {
 		  $this.find(' > img:first')
 		    .fadeOut(1000)
 		    .next()
@@ -629,7 +629,7 @@ jQuery(document).ready(function($){
 		if( $directions.length > 0 ){
 			var $map = $directions.prev();
 			var lat = $map.data('lat');
-			var long = $map.data('long');		
+			var long = $map.data('long');
 			if (navigator.geolocation) {
 			    navigator.geolocation.getCurrentPosition(function(position){
 			    	$directions.attr('href', 'https://maps.google.com/maps?saddr='+position.coords.latitude+','+position.coords.longitude+'&daddr='+$map.data('lat')+','+$map.data('long'));
@@ -638,7 +638,7 @@ jQuery(document).ready(function($){
 			    });
 			} else {
 				$directions.attr('href', 'https://maps.google.com/maps?saddr=&daddr='+$map.data('lat')+','+$map.data('long'));
-			}		
+			}
 		}
 	}
 
@@ -655,9 +655,9 @@ jQuery(document).ready(function($){
 	*/
 	$('#commentform').on('submit', function(e){
 		var $this = $(this);
-		var flag = false;	
+		var flag = false;
 		var source = '.comment-required-fields';
-		
+
 		$this.find('.required').each(function(){
 			var $this = $(this);
 			if( $this.val() == '' && $this.attr('name') !== 'url' ){
@@ -684,11 +684,11 @@ jQuery(document).ready(function($){
 		$("html, body").stop().animate(
 			{
 				scrollTop: $($(this).data('target')).offset().top - $('.sticky-nav').outerHeight() - 50
-			}, 
+			},
 			{
 				duration: 1200
 			}
-		);		
+		);
 	})
 
 	/*
@@ -697,7 +697,7 @@ jQuery(document).ready(function($){
 	$(document).on('click', '.af-modal', function(e){
 		e.preventDefault();
 		$($(this).attr('href')).modal('show');
-	});	
+	});
 
 	if( window.location.hash == '#register' ){
 		$('#register').modal('show');
@@ -708,29 +708,6 @@ jQuery(document).ready(function($){
 	else if( window.location.hash == '#recover' ){
 		$('#recover').modal('show');
 	}
-
-	/* password strength */
-	$('.pw-check-strength').on('keyup', function(){
-		var $this = $(this);
-		var $strength = $this.parent().find('.pw-strength');
-		var val = $this.val();
-
-        var strongRegex = new RegExp("^(?=.{8,})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
-        var mediumRegex = new RegExp("^(?=.{7,})(((?=.*[A-Z])(?=.*[a-z]))|((?=.*[A-Z])(?=.*[0-9]))|((?=.*[a-z])(?=.*[0-9]))).*$", "g");
-		var enoughRegex = new RegExp("(?=.{6,}).*", "g");		
-		
-        if (val.length == 0) {
-            $strength.text('');
-        } else if (false == enoughRegex.test(val)) {
-			$strength.html( '<span style="color:#eb4d4b;">'+adifier_data.pw.more_char+'</span>' );
-        } else if (strongRegex.test(val)) {
-            $strength.html( '<span style="color:#6ab04c;">'+adifier_data.pw.strong+'</span>' );
-        } else if (mediumRegex.test(val)) {
-            $strength.html( '<span style="color:#f0932b;">'+adifier_data.pw.medium+'</span>' );
-        } else {
-            $strength.html( '<span style="color:#eb4d4b;">'+adifier_data.pw.weak+'</span>' );
-        }		
-	});
 
 
 	/*
@@ -764,7 +741,7 @@ jQuery(document).ready(function($){
 	$(document).on('click', '.af-modal', function(e){
 		e.preventDefault();
 		$($(this).attr('href')).modal('show');
-	});		
+	});
 
 	/*
 	* Toggle passwords
