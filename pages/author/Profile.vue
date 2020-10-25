@@ -283,15 +283,15 @@ export default {
             if (this.avatar) formData.append('avatar', this.avatar);
             formData.append('email', this.email);
             formData.append('first_name', this.first_name);
-            formData.append('last_name', this.last_name);
-            formData.append('phone', this.phone);
-            formData.append('facebook_id', this.facebook_id);
-            formData.append('twitter_id', this.twitter_id);
-            formData.append('youtube_id', this.youtube_id);
-            formData.append('linkedin_id', this.linkedin_id);
-            formData.append('instagram_id', this.instagram_id);
-            formData.append('website', this.website);
-            formData.append('description', this.description);
+            formData.append('last_name', this.last_name ?? '');
+            formData.append('phone', this.phone ?? '');
+            formData.append('facebook_id', this.facebook_id ?? '');
+            formData.append('twitter_id', this.twitter_id ?? '');
+            formData.append('youtube_id', this.youtube_id ?? '');
+            formData.append('linkedin_id', this.linkedin_id ?? '');
+            formData.append('instagram_id', this.instagram_id ?? '');
+            formData.append('website', this.website ?? '');
+            formData.append('description', this.description ?? '');
 
             this.$axios.put('/author/profile', formData, {
                 headers: {
