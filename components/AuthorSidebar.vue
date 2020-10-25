@@ -2,7 +2,7 @@
     <div class="author-sidebar">
         <div>
             <div class="user-details text-center">
-                <img src="https://www.lettgo.no/wp-content/uploads/2020/08/109073604_3115446305159372_998685156192795896_o-150x150.jpg">
+                <img :src="$axios.defaults.baseURL + $store.state.auth.data.avatar">
                 <div class="author-details">
                     <h5>{{ authorName }}</h5>
                     <a href="" target="_blank">{{ $t('author.view_profile') }}</a>
